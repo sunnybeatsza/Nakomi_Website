@@ -1,32 +1,58 @@
 .Hero-section {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  padding: 0;
-  margin-top: 2.5rem;
-  border: 1px solid black;
+  border: 1px solid rgb(107 114 128);
 }
 
-.box {
-  flex: 1; /* Ensures both boxes take up equal space */
+.Hero-Left {
+  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-.box1 {
-  background-color: #f4f4f4; /* Slight background for text section */
-  display: flex;
   justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-.box2 {
-  overflow: hidden; /* Ensures image doesn't overflow */
+.inner_left_div {
+  color: #414141;
+}
+
+.nested_left_div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nested_line_1 {
+  width: 2rem;
+  height: 2px;
+  background-color: #414141;
+}
+
+.nested_lead_1 {
+  font-weight: 500;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+
+.nested_heading {
+  font-size: 1.875rem; /* 30px */
+  line-height: 1.25rem; /* 36px */
+}
+
+.nested_paragraph {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nested_paragraph_1 {
+  font-weight: 600;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
 }
 
 #HeroImg {
-  width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the image covers the entire box without distortion */
+  width: 100%;
+  object-fit: cover;
 }

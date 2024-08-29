@@ -4,7 +4,7 @@ import LogoImg from "../../Assets/Logo1_Copy.jpg";
 
 export const Navbar = () => {
   return (
-    <div className="navbar-items py-3">
+    <div className="navbar-items">
       <a href="/">
         <img src={LogoImg} alt="Logo-Img" id="Logo-Img" />
       </a>
