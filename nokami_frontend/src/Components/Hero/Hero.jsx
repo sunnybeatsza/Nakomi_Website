@@ -10,16 +10,19 @@ export const Hero = () => {
         <div className="inner_left_div">
           <div className="nested_left_div">
             <p className="nested_line_1"></p>
-            <p className="nested_lead_1">HAIR CARE REIMAGINED</p>
+            <p className="nested_lead_1">HAIR CARE THAT TRULY CARES</p>
           </div>
           <h1 className="nested_heading">
-            DISCOVER THE POWER OF
+            DISCOVER NATURE'S FINEST
             <br />
             <br />
-            NATURAL HAIR OIL
+            FOR YOUR HAIR
           </h1>
           <div className="nested_paragraph">
-            <p className="nested_paragraph_1">SHOP NOW</p>
+            <p className="nested_paragraph_1">
+              {/* From Uiverse.io by barisdogansutcu */}
+              <button>SHOP NOW</button>
+            </p>
             <p className="nested_line_1"></p>
           </div>
         </div>
