@@ -1,6 +1,5 @@
 import React from "react";
 import "./NewProducts.css";
-import Image1 from "../../Assets/Product_lemon.jpg";
 
 export const NewProducts = () => {
   return (
@@ -28,13 +27,6 @@ export const NewProducts = () => {
           </div>
           <button class="card-button">More info</button>
         </div>
-        <div class="card">
-          <div class="card-details">
-            <p class="text-title">Card title</p>
-          </div>
-          <button class="card-button">More info</button>
-        </div>
-
         <div class="card">
           <div class="card-details">
             <p class="text-title">Card title</p>
