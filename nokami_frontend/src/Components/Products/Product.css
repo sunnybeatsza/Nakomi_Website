@@ -1,0 +1,26 @@
+.Products-Heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.action-bar {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  height: 3.3em;
+  margin-bottom: 3rem;
+}
+
+.collection-nav-buttons {
+  display: flex;
+}
+
+.action-buttons {
+  padding-left: 2rem;
+  padding-top: 0.8rem;
+  border-right: 1px solid black;
+  padding-right: 1.5rem;
+}
